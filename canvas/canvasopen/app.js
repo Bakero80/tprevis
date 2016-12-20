@@ -1,0 +1,11 @@
+var canvas  = document.querySelector('#canvas');
+var context = canvas.getContext('2d');
+context.strokeStyle = "rgb(23, 145, 167)";
+context.beginPath();
+context.moveTo(20, 20);
+context.lineTo(130, 20);
+context.lineTo(130, 50);
+context.lineTo(75, 130);
+context.lineTo(20, 50);
+context.closePath();
+context.fill();
